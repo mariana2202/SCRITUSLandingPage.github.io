@@ -3,13 +3,14 @@
     $cxn = ConectionBD::getConection();
 
     // VARIABLES
+    $id = $_POST[''];
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
     $correo = $_POST['correo'];
     $contraseña = $_POST['contraseña'];
     $celular = $_POST['celular'];
 
-    $sqlinsert = "INSERT INTO `scritus`(`id`, `nombre`, `apellido`, `correo`, `contraseña`, `celular`) VALUES ('$nombre', '$apellido', '$correo', '$contraseña', '$celular')";
+    $sqlinsert = "INSERT INTO `usuarios`(`id`, `nombre`, `apellido`, `correo`, `contraseña`, `celular`) VALUES ($id, '$nombre', '$apellido', '$correo', '$contraseña', '$celular')";
 
     $cxn -> query($sqlinsert);
 
