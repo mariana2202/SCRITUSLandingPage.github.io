@@ -5,12 +5,12 @@ padding: 0;
 /* TIPOGRAFÍA */
 @font-face{
     font-family: tw-cent;
-    src: url(tw-cen-mt-condensed-3.ttf);
+    src: url(../tw-cen-mt-condensed-3.ttf);
 }
 
 @font-face{
     font-family: segoe;
-    src: url(segoe-script-bold.ttf);
+    src: url(../segoe-script-bold.ttf);
 }
 
 .segoe{
@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6, p{
 
 .align{
     text-align: justify;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* COLORES */
@@ -112,7 +117,7 @@ a:hover {
 /* SECCIONES */
 
 #inicio{
-    background-image: url(img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -124,14 +129,14 @@ a:hover {
 }
 
 #contenido{
-    background-image: url(img/contenido.jpg);
+    background-image: url(../img/contenido.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 #testimonios{
-    background-image: url(img/testimonios.jpg);
+    background-image: url(../img/testimonios.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
