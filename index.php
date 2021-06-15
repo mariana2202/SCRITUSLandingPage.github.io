@@ -88,7 +88,7 @@
                                 <input type="text" class="form-control h-50 w-75 mx-auto d-block" id="correo" placeholder="Correo" name="correo">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control h-50 w-75 mx-auto d-block" id="contraseña" placeholder="Contraseña" name="contraseña">
+                                <input type="password" class="form-control h-50 w-75 mx-auto d-block" id="contraseña" placeholder="Contraseña" name="contrasena">
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control h-50 w-50 mx-auto d-block" id="celular" placeholder="Celular" name="celular">
